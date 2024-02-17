@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+}
+
+.div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.backgroundHeader {
+  background-image: url(./comps/Images/headerBackground.jpg);
+  padding: 16rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.backgroundHeader img {
+  display: block;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  padding: 16rem 3rem;
+  width: 100%;
+}
+
+.headerDetails {
+  position: absolute;
+  padding: 0 10rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerDetails img {
+  width: 15%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.headerDetails button {
+  background-color: #d81f26;
+  padding: 0.3rem 1.5rem;
+  border-radius: 0.4rem;
+}
+
+.sign {
+  max-width: 500px;
+  padding: 2rem 1rem;
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.sign input {
+  width: 100%;
+  border-radius: 0.1rem;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid gray;
+  background: rgba(0, 0, 0, 0.217);
+  outline: none;
+}
+
+.sign button {
+  width: 50%;
+  border-radius: 0.2rem;
+  background-color: #d81f26;
+}
