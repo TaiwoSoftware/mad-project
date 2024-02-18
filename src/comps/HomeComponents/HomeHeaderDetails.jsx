@@ -1,5 +1,5 @@
 import netflixLogo from "../Images/logo.svg";
-import SignIn from "../auth/SignIn";
+import SignIn from "../auth/signIn";
 import HomeHeaderHeaderOne from "./HomeHeaderHeaderOne";
 function HomeHeaderDetails() {
   return (

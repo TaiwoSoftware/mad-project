@@ -9,6 +9,7 @@ function HomeHeader() {
           <HomeHeaderDetails />
         </div>
       </div>
+      <hr />
     </header>
   );
 }

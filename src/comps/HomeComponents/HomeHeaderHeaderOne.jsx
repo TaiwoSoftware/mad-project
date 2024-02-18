@@ -1,6 +1,6 @@
 function HomeHeaderHeaderOne() {
   return (
-    <div>
+    <div className="headerDetail">
       <h1 className="mt-[-2rem] text-center font-bold text-5xl">
         Unlimited movies, TV shows, and more
       </h1>
