@@ -95,9 +95,19 @@ body {
   transform: translateY(2.5rem);
 }
 
-hr {
+header hr {
   border-width: 0.5rem;
   border-color: rgb(122, 122, 122);
 }
 
+.fs {
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 7rem;
+}
 
+hr {
+  border-width: 0.5rem;
+  border-color: #373737;
+}
