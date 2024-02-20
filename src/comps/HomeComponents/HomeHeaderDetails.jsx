@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import netflixLogo from "../Images/logo.svg";
-import SignIn from "../auth/signIn";
+import SignIn from "../auth/SgnIn";
 import HomeHeaderHeaderOne from "./HomeHeaderHeaderOne";
 function HomeHeaderDetails() {
   const nav = useNavigate();
