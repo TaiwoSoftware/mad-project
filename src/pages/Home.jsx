@@ -1,6 +1,7 @@
 import React from "react";
 import HomeHeader from "../comps/HomeComponents/HomeHeader";
 import SectionOne from "../comps/firstSection/sectionOne";
+import SectionTwo from "../comps/secondSection/sectionTwo";
 
 function Home() {
   return (
@@ -8,7 +9,7 @@ function Home() {
       <HomeHeader />
       <SectionOne />
       <hr />
-      <h1>Hello World</h1>
+      <SectionTwo />
     </div>
   );
 }
