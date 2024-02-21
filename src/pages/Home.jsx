@@ -1,3 +1,4 @@
+import Faqs from "../comps/Frequently/faqs";
 import HomeHeader from "../comps/HomeComponents/HomeHeader";
 import SectionOne from "../comps/firstSection/sectionOne";
 import SectionFour from "../comps/fourthSection/SectionFour";
@@ -15,6 +16,8 @@ function Home() {
       <SectionThree />
       <hr />
       <SectionFour />
+      <hr />
+      <Faqs />
     </div>
   );
 }

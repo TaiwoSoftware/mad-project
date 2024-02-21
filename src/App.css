@@ -115,3 +115,13 @@ hr {
 .sectionTwoDetails {
   margin-top: 8rem;
 }
+
+.faqDiv {
+  background-color: #2d2d2d;
+}
+
+.fas {
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto;
+}
