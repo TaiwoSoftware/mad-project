@@ -1,5 +1,3 @@
-import React from "react";
-
 function sectionThree() {
   return (
     <div className=" fs mt-16">
