@@ -15,7 +15,14 @@ function SignIn() {
         placeholder="Your email address"
         onChange={handleChange}
       />
-      <button type="submit">Get Started &gt;</button>
+      <button
+        onClick={() => {
+          alert("clicked");
+        }}
+        type="submit"
+      >
+        Get Started &gt;
+      </button>
     </div>
   );
 }
