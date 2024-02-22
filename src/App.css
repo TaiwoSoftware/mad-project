@@ -28,7 +28,14 @@ body {
   position: relative;
 }
 
-.backgroundHeader img {
+.backgroundHeaders {
+  background-image: url(./comps/Images/headerBackground.jpg);
+  padding: 19.7rem;
+  background-size: cover;
+}
+
+.backgroundHeader img,
+.backgroundHeaders img {
   display: block;
 }
 
@@ -40,6 +47,14 @@ body {
   color: #fff;
   padding: 9.5rem 3rem;
   width: 100%;
+}
+
+.layers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 17.25rem 3rem;
 }
 
 .headerDetails {
@@ -130,4 +145,12 @@ hr {
 .allFooter {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* .account {
+  background: url(../src/comps/Images/headerBackground.jpg);
+} */
+
+.createAccountHeader img {
+  width: 10%;
 }
