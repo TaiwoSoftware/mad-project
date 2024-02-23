@@ -32,6 +32,9 @@ body {
   background-image: url(./comps/Images/headerBackground.jpg);
   padding: 19.7rem;
   background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 0;
 }
 
 .backgroundHeader img,
@@ -43,6 +46,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
   background-color: rgba(0, 0, 0, 0.55);
   color: #fff;
   padding: 9.5rem 3rem;
@@ -54,12 +58,13 @@ body {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.55);
-  padding: 17.25rem 3rem;
+  padding: 19.75rem 3rem;
+  width: 100%;
 }
 
 .headerDetails {
   position: absolute;
-  padding: 0 10rem;
+  padding: 0 4rem;
   top: 0;
   left: 0;
   width: 100%;
@@ -146,11 +151,58 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
-/* .account {
-  background: url(../src/comps/Images/headerBackground.jpg);
-} */
-
+.createAccountHeader {
+  position: absolute;
+  top: -2rem;
+  left: 0;
+}
 .createAccountHeader img {
-  width: 10%;
+  width: 20%;
+  cursor: pointer;
+}
+
+form {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10rem 4rem;
+  color: #fff;
+  position: absolute;
+  transform: translateY(-36rem);
+  margin-left: 25rem;
+  background-color: #000000ab;
+  box-sizing: border-box;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1.2rem 2rem;
+  border-radius: 0.5rem;
+  background: rgb(39, 39, 39);
+}
+
+input[type="submit"] {
+  padding: 1rem 1rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  background-color: #d81f26;
+  width: 100%;
+  border: 1px solid red;
+}
+.formLowDetails {
+  position: absolute;
+  transform: translateY(-10.5rem) translateX(29rem);
+}
+
+.innerForm {
+  margin-top: -7rem;
+  margin-bottom: 2rem;
+}
+
+.security {
+  position: absolute;
+  transform: translateY(-6rem) translateX(29rem);
+  color: #fff;
 }
