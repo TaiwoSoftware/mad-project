@@ -6,31 +6,58 @@ function Footer() {
 
         <div className="allFooter">
           <div className=" mt-10">
-            <p className="underline mt-4 text-slate-200 ">FAQ</p>
-            <p className="underline mt-4 text-slate-200 ">Investor Relations</p>
-            <p className="underline mt-4 text-slate-200 ">Privacy</p>
-            <p className="underline mt-4 text-slate-200 ">Speed Test</p>
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">FAQ</p>
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">
+              Investor Relations
+            </p>
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">
+              Privacy
+            </p>
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">
+              Speed Test
+            </p>
           </div>
 
           <div className="mt-10">
-            <p className="underline mt-4 text-slate-200 ">Help center</p>
-            <p className="underline mt-4 text-slate-200 "> Jobs</p>
-            <p className="underline mt-4 text-slate-200 ">Cookie Preferences</p>
-            <p className="underline mt-4 text-slate-200 ">Legal Notices</p>
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">
+              Help center
+            </p>
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">
+              {" "}
+              Jobs
+            </p>
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">
+              Cookie Preferences
+            </p>
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">
+              Legal Notices
+            </p>
           </div>
 
           <div className="mt-10">
-            <p className="underline mt-4 text-slate-200 ">Account</p>
-            <p className="underline mt-4 text-slate-200 ">Ways to watch</p>
-            <p className="underline mt-4 text-slate-200 ">
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">
+              Account
+            </p>
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">
+              Ways to watch
+            </p>
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">
               Corporate Information
             </p>
-            <p className="underline mt-4 text-slate-200 ">Only on Netflix</p>
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">
+              Only on Netflix
+            </p>
           </div>
           <div className="mt-10">
-            <p className="underline mt-4 text-slate-200 ">Media Center</p>
-            <p className="underline mt-4 text-slate-200 ">Terms of Use</p>
-            <p className="underline mt-4 text-slate-200 ">Contact us</p>
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">
+              Media Center
+            </p>
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">
+              Terms of Use
+            </p>
+            <p className="underline mt-4 text-slate-200 cursor-pointer ">
+              Contact us
+            </p>
           </div>
         </div>
       </footer>

@@ -7,6 +7,7 @@ function questionsDiv({ question }) {
         <p className="text-white text-2xl font-normal">{question}?</p>
         <TogglePlus />
       </div>
+      
     </div>
   );
 }

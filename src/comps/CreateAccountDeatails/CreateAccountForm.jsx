@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function CreateAccountForm() {
-  const [emailValue, setEmailValue] = useState("");
+  const [emailValue, setEmailValue] = useState('')
   const [passwordValue, setPasswordValue] = useState("");
   const handleEmailValue = (e) => {
     setEmailValue(e.target.value);
